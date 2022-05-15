@@ -2,10 +2,6 @@ import React, { Component } from "react";
 
 //componente Clock creado para utilizar como ejemplo el componentWillunmount
 class Clock extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   componentWillUnmount() {
     console.log(3, "WillUnmount - El componente ha sido eliminado del DOM");
   }

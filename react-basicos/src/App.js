@@ -1,16 +1,20 @@
 import "./App.css";
-import Componente from "./components/Componente-1";
-import Propiedades from "./components/Propiedades-2";
-import Estado from "./components/Estado-3";
-import RenderizadoCondicional from "./components/RenderizadoCondicional-4";
-import RenderizadoElementos from "./components/RenderizadoElementos-5";
+import Componente from "./components/1-Componente";
+import Propiedades from "./components/2-Propiedades";
+import Estado from "./components/3-Estado";
+import RenderizadoCondicional from "./components/4-RenderizadoCondicional";
+import RenderizadoElementos from "./components/5-RenderizadoElementos";
 import {
   EventosEs6,
   EventosEs7,
   MasSobreEventos,
-} from "./components/Eventos-6";
-import ComunicacionComponentes from "./components/ComunicacionComponentes-7";
-import CicloVida from "./components/CicloVida-8";
+} from "./components/6-Eventos";
+import ComunicacionComponentes from "./components/7-ComunicacionComponentes";
+import CicloVida from "./components/8-CicloVida";
+import AjaxApi from "./components/9-AjaxApis";
+import ContadorHooks from "./components/10-ContadorHooks";
+import ScrollHooks from "./components/11-ScrollHooks";
+import RelojHooks from "./components/12-RelojHooks";
 
 function App() {
   const estaciones = ["Primavera", "Verano", "Otoño", "Invierno"];
@@ -67,6 +71,14 @@ function App() {
             <ComunicacionComponentes />
             <hr />
             <CicloVida />
+            <hr />
+            <AjaxApi />
+            <hr />
+            <ContadorHooks />
+            <hr />
+            <ScrollHooks />
+            <hr />
+            <RelojHooks />
           </section>
         </header>
       </div>
