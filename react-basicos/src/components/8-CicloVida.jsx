@@ -3,7 +3,7 @@ import React, { Component } from "react";
 //componente Clock creado para utilizar como ejemplo el componentWillunmount
 class Clock extends Component {
   componentWillUnmount() {
-    console.log(3, "WillUnmount - El componente ha sido eliminado del DOM");
+    // console.log(3, "WillUnmount - El componente ha sido eliminado del DOM");
   }
 
   render() {
@@ -19,13 +19,13 @@ export default class CicloVida extends Component {
       visualize: false,
     };
 
-    console.log(0, "'constructor', el componete aun no se encuentra en el DOM");
+    // console.log(0, "'constructor', el componete aun no se encuentra en el DOM");
     this.timer = null;
   }
 
   //============CICLO DE VIDA=============
   componentDidMount() {
-    console.log(1, "DidMount - El componente ya esta montado en el DOM");
+    // console.log(1, "DidMount - El componente ya esta montado en el DOM");
   }
   componentDidUpdate(prevProps, prevState) {
     console.log(
@@ -56,7 +56,7 @@ export default class CicloVida extends Component {
   };
 
   render() {
-    console.log(4, "'render',se cambio las props o el state del componente");
+    // console.log(4, "'render',se cambio las props o el state del componente");
     return (
       <>
         <h3>Ciclo de Vida</h3>

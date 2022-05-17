@@ -4,7 +4,7 @@ import data from "../helpers/data.json";
 function ElementoLista({ id, web, name }) {
   return (
     <div>
-      <a href={web} key={id} target="_blank">
+      <a href={web} key={id}>
         {name}
       </a>
     </div>
@@ -20,7 +20,7 @@ export default class RenderizadoElementos extends Component {
     };
   }
   render() {
-    console.log(this.state.frameworks);
+    // console.log(this.state.frameworks);
     return (
       <div>
         <h3>Renerizado de Elementos</h3>

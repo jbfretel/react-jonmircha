@@ -15,6 +15,7 @@ import AjaxApi from "./components/9-AjaxApis";
 import ContadorHooks from "./components/10-ContadorHooks";
 import ScrollHooks from "./components/11-ScrollHooks";
 import RelojHooks from "./components/12-RelojHooks";
+import AjaxHooks from "./components/13-AjaxHooks";
 
 function App() {
   const estaciones = ["Primavera", "Verano", "Otoño", "Invierno"];
@@ -79,6 +80,8 @@ function App() {
             <ScrollHooks />
             <hr />
             <RelojHooks />
+            <hr />
+            <AjaxHooks />
           </section>
         </header>
       </div>

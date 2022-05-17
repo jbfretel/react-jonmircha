@@ -21,7 +21,7 @@ export class EventosEs6 extends Component {
 
   // arrow function no necesita del bind
   handleClickReset = (evt) => {
-    console.log(this);
+    // console.log(this);
     this.setState({ contador: 0 });
   };
 

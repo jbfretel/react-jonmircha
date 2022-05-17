@@ -12,16 +12,16 @@ export default function ScrollHooks() {
   }, [scrollY]);
 
   useEffect(() => {
-    console.log("componentDidMount o fase de montaje");
+    // console.log("componentDidMount o fase de montaje");
   }, []);
 
   useEffect(() => {
     //OJO no recomendable dejar sin el array, colocar ene este el la variable de estado a escuchar en la actualización.
-    console.log("componentDidUpdate o actualización");
+    // console.log("componentDidUpdate o actualización");
   });
 
   useEffect(() => {
-    console.log("componentWillUnmount o fase de desmontaje");
+    // console.log("componentWillUnmount o fase de desmontaje");
     return () => {};
   }, []);
   return (

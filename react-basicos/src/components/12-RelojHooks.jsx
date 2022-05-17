@@ -18,6 +18,7 @@ export default function RelojHooks() {
       clearInterval(timer);
     }
     return () => {
+      // console.log("fase de desmontaje");
       clearInterval(timer);
     };
   }, [visible]);
